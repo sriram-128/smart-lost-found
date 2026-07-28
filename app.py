@@ -299,3 +299,9 @@ def main() -> None:
 
 
 if __name__ == "__main__": main()
+
+import streamlit as st
+
+st.sidebar.markdown("## 🔗 Project Links")
+st.sidebar.markdown("[🌐 Live Demo](https://smart-lost-found-stpxdl4hxtbmzpxkunox5l.streamlit.app/)")
+st.sidebar.markdown("[💻 GitHub Repository](https://github.com/sriram-128/smart-lost-found)")
